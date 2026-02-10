@@ -1,0 +1,111 @@
+/* Reset dasar */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient( #98c8eb 30%, #e1c2c2 50%);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container utama */
+.container {
+  width: 800px;
+  background: rgb(255, 255, 255);
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  margin: 0;
+  color: #eea9c9 ;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile img {
+  width: 300px;
+  border-radius: 10%;
+  margin-right: 50px;
+}
+
+.profile-text h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Container untuk keahlian & pengalaman */
+.row {
+  display: flex;
+  gap: 30px;
+}
+
+/* Kolom */
+.column {
+  flex: 1;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+
+/* Section */
+section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #eea9c9;
+  border-bottom: 2px solid #f0a7d7;
+  padding-bottom: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background: linear-gradient(to bottom, #eea9c9 30%, #afe0f7 120%);
+  color: white;
+}
+
+/* List */
+ul {
+  padding-left: 20px;
+}
+
+/* Link */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
